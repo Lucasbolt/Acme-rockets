@@ -13,6 +13,11 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      // manually added configuration
+      screens: {
+        'widescreen': {'raw': '(min-aspect-ratio: 3/2)'},
+        'tallscreen': {'raw': '(min-aspect-ratio: 1/2)'}
+      }
     },
   },
   plugins: [],
